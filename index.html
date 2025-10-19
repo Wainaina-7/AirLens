@@ -15,23 +15,25 @@
   </header>
  <main class="container my-5">
     <!-- Search Section -->
-     <section class="text-center mb-5">
-      <h2 class="mb-4 fw-bold">Check Air Quality</h2>
-       <form id="location-form" class="row justify-content-center g-3"></form>
-        <div class="col-md-3">
-          <input type="text" id="city-input" class="form-control" placeholder="City (e.g. Nairobi)" required />
-        </div>
-        <div class="col-md-3">
-          <input type="text" id="state-input" class="form-control" placeholder="State / Region (optional)" />
-        </div>
-        <div class="col-md-3">
-          <input type="text" id="country-input" class="form-control" placeholder="Country (e.g. Kenya)" required />
-        </div>
-        <div class="col-md-2">
-          <button type="submit" class="btn btn-primary w-100">Get Data</button>
-        </div>
-    </form>
-    </section>
+<section class="text-center mb-5">
+  <h2 class="mb-4 fw-bold">Check Air Quality</h2>
+  <form id="location-form" class="row justify-content-center g-3">
+    <div class="col-md-3">
+      <input type="text" id="city-input" class="form-control" placeholder="City (e.g. Nairobi)" required />
+    </div>
+    <div class="col-md-3">
+      <input type="text" id="state-input" class="form-control" placeholder="State / Region (optional)" />
+    </div>
+    <div class="col-md-3">
+      <input type="text" id="country-input" class="form-control" placeholder="Country (e.g. Kenya)" required />
+    </div>
+    <div class="col-md-2">
+      <button type="submit" class="btn btn-primary w-100">Get Data</button>
+    </div>
+  </form>
+</section>
+
+    
     <!-- Results section -->
      <section id="results" class="mb-5">
       <div class="text-center mb-4">
@@ -96,7 +98,7 @@
     <p class="mb-0">Powered by IQAir API | © 2025 AirLens</p>
   </footer>
 
-
+<script src="config.js"></script>
   <script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src= "./index.js"></script>
 </body>
