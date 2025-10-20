@@ -60,12 +60,12 @@ The app is built with **vanilla JavaScript**, **Bootstrap 5**, and the **WAQI AP
 
 
 AirLens
-│
-├── index.html          # Main webpage structure (HTML)
-├── style.css           # Custom styles and animations
-├── index.js            # Core logic, event handling, API calls
-├── config.js           # Contains your API token (not to be uploaded)
-├── README.md           # Project documentation (this file)
+
+index.html          # Main webpage structure (HTML)
+style.css           # Custom styles and animations
+index.js            # Core logic, event handling, API calls
+config.js           # Contains your API token (not to be uploaded)
+README.md           # Project documentation (this file)
 
 ## Creating the project
 1. Created a directory called AirLens in the terminal through mkdir AirLens.
