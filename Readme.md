@@ -52,7 +52,6 @@ The app is built with **vanilla JavaScript**, **Bootstrap 5**, and the **WAQI AP
 | Frontend | HTML5, CSS3, JavaScript (ES6) |
 | Styling Framework | Bootstrap 5.3.8 |
 | API | World Air Quality Index (WAQI) API |
-| Fonts & Icons | Bootstrap Icons, Emoji |
 | Build Tools | Native browser ES modules |
 
 ---
